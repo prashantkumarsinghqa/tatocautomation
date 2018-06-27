@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.Maven.tatoc.MavinAutomation.MavenMainTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.Maven.tatoc.MavinAutomation.MavenMainTest">
+        <methods>
+          <include name="verifyDragPerformed"/>
+          <include name="verifyGreenBoxSelected"/>
+          <include name="verifyBoxColorSame"/>
+          <include name="verifyCookieAdded"/>
+          <include name="closeBrowser"/>
+          <include name="verifyTextEnteredInPopupWindow"/>
+          <include name="launchBrowser"/>
+          <include name="verifyBasicCourseSelection"/>
+        </methods>
+      </class> <!-- com.Maven.tatoc.MavinAutomation.MavenMainTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.Maven.tatoc.MavinAutomation.MavenMainTest] -->

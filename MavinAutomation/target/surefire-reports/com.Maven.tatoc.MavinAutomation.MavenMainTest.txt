@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: com.Maven.tatoc.MavinAutomation.MavenMainTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 10.711 sec <<< FAILURE!
+verifyBasicCourseSelection(com.Maven.tatoc.MavinAutomation.MavenMainTest)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.Maven.tatoc.MavinAutomation.BasicCourse.basicCourseSelection(BasicCourse.java:9)
+	at com.Maven.tatoc.MavinAutomation.MavenMainTest.verifyBasicCourseSelection(MavenMainTest.java:18)
+
+verifyGreenBoxSelected(com.Maven.tatoc.MavinAutomation.MavenMainTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.Maven.tatoc.MavinAutomation.GridGate.clickBox(GridGate.java:9)
+	at com.Maven.tatoc.MavinAutomation.MavenMainTest.verifyGreenBoxSelected(MavenMainTest.java:23)
+
+verifyBoxColorSame(com.Maven.tatoc.MavinAutomation.MavenMainTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.Maven.tatoc.MavinAutomation.FrameDungeon.colorMatching(FrameDungeon.java:9)
+	at com.Maven.tatoc.MavinAutomation.MavenMainTest.verifyBoxColorSame(MavenMainTest.java:28)
+
+verifyDragPerformed(com.Maven.tatoc.MavinAutomation.MavenMainTest)  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:882)
+	at org.openqa.selenium.interactions.Actions.<init>(Actions.java:68)
+	at com.Maven.tatoc.MavinAutomation.DragAround.drag(DragAround.java:11)
+	at com.Maven.tatoc.MavinAutomation.MavenMainTest.verifyDragPerformed(MavenMainTest.java:33)
+
+verifyTextEnteredInPopupWindow(com.Maven.tatoc.MavinAutomation.MavenMainTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.Maven.tatoc.MavinAutomation.PopupWindows.launchPopupWindow(PopupWindows.java:11)
+	at com.Maven.tatoc.MavinAutomation.MavenMainTest.verifyTextEnteredInPopupWindow(MavenMainTest.java:38)
+
+verifyCookieAdded(com.Maven.tatoc.MavinAutomation.MavenMainTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.Maven.tatoc.MavinAutomation.CookieHandling.addCookie(CookieHandling.java:10)
+	at com.Maven.tatoc.MavinAutomation.MavenMainTest.verifyCookieAdded(MavenMainTest.java:43)
+
+closeBrowser(com.Maven.tatoc.MavinAutomation.MavenMainTest)  Time elapsed: 2.01 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.Maven.tatoc.MavinAutomation.MavenMainTest.closeBrowser(MavenMainTest.java:57)
+
